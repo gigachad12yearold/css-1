@@ -66,8 +66,8 @@ section .only-child-task :only-child {
     color: red;
 }
 
-div.seven-task :first-of-type,
-div.eight-task :last-of-type {
+div.seven-task span:first-of-type,
+div.eight-task span:last-of-type {
     background-color: red;
 }
 
