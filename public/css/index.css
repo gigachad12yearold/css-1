@@ -1,0 +1,133 @@
+:root {
+    background: white;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    background-color: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+.box p {
+    background-color: red;
+}
+
+.box div {
+    background-color: green;
+}
+
+.brown {
+    background-color: brown;
+    color: white;
+}
+
+.a>ul>li {
+    background-color: red;
+}
+
+.header-button+span {
+    background-color: red;
+}
+
+.susid~p {
+    background-color: blue;
+    color: white;
+}
+
+.salo,
+#bread {
+    background-color: yellow;
+}
+
+/*  Урок 2  */
+
+.first-task ul :first-child,
+.five-task :last-child :last-child {
+    color: white;
+}
+
+.second-task :first-child :first-child,
+.third-task :last-child :first-child,
+.four-task ul :last-child {
+    color: yellow;
+}
+
+section .only-child-task :only-child {
+    color: red;
+}
+
+div.seven-task :first-of-type,
+div.eight-task :last-of-type {
+    background-color: red;
+}
+
+.nine-task :only-of-type {
+    background-color: yellow;
+}
+
+/*  Урок 2  */
+
+a[href] {
+    color: white;
+}
+
+li[value] {
+    color: yellow;
+}
+
+li[value=3] {
+    color: yellow;
+}
+
+button[class~="primary"] {
+    background-color: blue;
+}
+
+button[class|="secondary"] {
+    background-color: red;
+}
+
+.lesson-three-task-six li[class^="b"] {
+    background-color: green;
+    color: white;
+}
+
+.lesson-three-task-seven li[class*="on"] {
+    background-color: white;
+    color: green;
+}
+
+.lesson-three-task-eight span[class$="s"] {
+    background-color: red;
+    color: green;
+}
+
+.lesson-three-task-nine h2::first-letter {
+    color: red;
+}
+
+.lesson-three-task-ten::first-line {
+    color: red;
+}
+
+input::placeholder {
+    background-color: red;
+}
+
+.lesson-three-task-twelve li::before {
+    content: '➤';
+}
+
+.lesson-three-task-thirteen li::after {
+    content: '➤';
+}
